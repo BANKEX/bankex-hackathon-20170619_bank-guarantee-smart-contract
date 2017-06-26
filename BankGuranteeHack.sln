@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FAB06D47-91CB-4CBE-813B-FBE032F17C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{977A886C-4DF2-417A-88E5-2DC672856327}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BankGuranteeHack", "src\BankGuranteeHack.xproj", "{F126E774-7A64-45A2-A40E-CEE53F857AB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F126E774-7A64-45A2-A40E-CEE53F857AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F126E774-7A64-45A2-A40E-CEE53F857AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F126E774-7A64-45A2-A40E-CEE53F857AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F126E774-7A64-45A2-A40E-CEE53F857AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F126E774-7A64-45A2-A40E-CEE53F857AB8} = {FAB06D47-91CB-4CBE-813B-FBE032F17C38}
+	EndGlobalSection
+EndGlobal
